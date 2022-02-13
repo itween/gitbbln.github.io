@@ -18,9 +18,7 @@ body {
 .clouds {
   display: flex;
    justify-content:center;
-   align-items:center;
    height: 100%;
-
 }
 
 .left {
@@ -30,9 +28,6 @@ body {
 }
 
 .div-left {
-  position: absolute;
-  left: 0%;
-  top: 0px;
   width: var(--width-cloud);
   height: var(--height-cloud);
   z-index: 10;
@@ -49,7 +44,6 @@ img {
 
 
 .div-right {
-  position: absolute;
   top: 0px;
   left: 49%;
   width: var(--width-cloud);
